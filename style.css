@@ -1,10 +1,9 @@
+/* Styling */
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -36,7 +35,7 @@ footer {
   border: 2px solid #f9faf8;
 }
 
-.hero, footer {
+.hero, footer, .navbar {
   background-color: #1f2937;
 }
 
@@ -84,4 +83,14 @@ footer {
 
 .subtext {
   color: #656d79;
+}
+
+/* Positioning */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
