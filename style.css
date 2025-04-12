@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, .secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  font-weight: 900;
+  padding: 6px 24px;
+}
+
+button, .call-to-action {
+  background-color: #3882f6;
+  border-radius: 6px;
+  color: #f9faf8;
+}
+
+footer {
+  color: #f9faf8;
+}
+
+.call-to-action button {
+  border: 2px solid #f9faf8;
+}
+
+.hero, footer {
+  background-color: #1f2937;
+}
+
+.illustration-* p {
+  font-size: 300px;
+}
+
+.information-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote q {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote p {
+  font-weight: 900;
+}
+
+.random-information img {
+  border: 2px solid #3882f6;
+  border-radius: 6px;
+}
+
+.subtext {
+  color: #656d79;
+}
