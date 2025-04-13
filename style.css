@@ -18,6 +18,7 @@ button {
   background-color: #3882f6;
   border: none;
   color: inherit;
+  font-weight: 900;
 }
 
 ul {
@@ -123,22 +124,27 @@ button {
   text-align: center;
 }
 
-.random-information .container {
-  display: flex;
-  justify-content: space-between;
-}
-
 .preview {
   display: flex;
+  justify-content: center;
 }
 
 /* Positioning - Quote */
 
 .quote {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   flex-flow: column;
-  text-align: center;
+  text-align: start;
+}
+
+.quote div {
+  display: flex;
+  flex-flow: column;
+}
+
+.quote div p {
+  align-self: flex-end;
 }
 
 /* Positioning - Call to Action */
@@ -146,14 +152,11 @@ button {
 .call-to-action {
   align-items: center;
   display: flex;
-  padding: 75px 150px;
 }
 
 .call-to-action .container {
   display: flex;
   justify-content: space-between;
-  border-radius: 6px;
-  padding: 36px 75px;
 }
 
 /* Positioning - Footer */
@@ -171,7 +174,7 @@ body {
 }
 
 button {
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 6px 24px;
 }
 
@@ -189,18 +192,19 @@ img {
   font-size: 18px;
 }
 
+.container div p {
+  max-width: 450px;
+  padding: 0 0 10px;
+}
+
 /* Sizing - Navbar */
 
 .navbar {
-  height: 60px;
+  padding: 20px 0 120px;
 }
 
 .navbar ul {
   gap: 20px;
-}
-
-.navbar .container {
-  height: 100%;
 }
 
 .navbar .logo {
@@ -212,6 +216,7 @@ img {
 
 .container div h1 {
   font-size: 48px;
+  max-width: 800px;
 }
 
 .header {
@@ -233,26 +238,61 @@ img {
 
 /* Sizing - Random Information */
 
+.box {
+  max-width: 170px;
+  padding: 0;
+}
+
 .box img {
-  border-radius: 6px;
+  border-radius: 8px;
   max-height: 160px;
-  max-width: 160px;
+}
+
+.preview .container {
+  margin: 0;
 }
 
 .random-information h2 {
   font-size: 36px;
+  padding: 35px;
 }
 
+.random-information .preview {
+  padding: 0 0 80px;
+}
 /* Sizing - Quote */
 
-.container div h1 {
-  max-width: 800px;
+.quote {
+  padding: 120px 220px;
 }
 
-.container div p {
-  max-width: 450px;
-}
-
-blockquote p {
+.quote blockquote {
   font-size: 36px;
+}
+
+.quote blockquote p {
+  max-width: 770px;
+}
+
+/* Sizing - Call to Action */
+
+.call-to-action {
+  padding: 75px 0;
+}
+
+.call-to-action .container {
+  border-radius: 8px;
+  gap: 120px;
+  padding: 40px 100px;
+}
+
+.call-to-action .container div p {
+  max-width: 500px;
+  padding: 0;
+}
+
+/* Sizing - Footer */
+
+.footer {
+  padding: 30px;
 }
